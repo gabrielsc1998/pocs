@@ -9,4 +9,5 @@ module.exports = {
   moduleNameMapper: {
     "@/(.*)": "<rootDir>/src/$1",
   },
+  collectCoverageFrom: ["<rootDir>/src/**/*.(t|j)s"],
 };
